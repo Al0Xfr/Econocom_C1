@@ -1,0 +1,42 @@
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+
+
+
+nav > ul{
+   width: 900px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   gap: 40px;   
+   list-style-type: none;
+}
+
+
+li:first-child{
+   color:blue;
+}
+
+
+li{
+   color:var(--color-accent-500);
+   border-bottom:solid 2px var(--color-accent-500)
+}
+
+
+li:hover{
+   color: var(--color-error-400);
+   border-bottom:solid 2px var(--color-error-400)
+}
+
+
+ul {
+   list-style-type: none;
+}
